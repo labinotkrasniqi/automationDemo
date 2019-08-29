@@ -9,3 +9,4 @@
 Final - YAY It works.
 
 #Before running the test make sure you have the selected browser installed.
+ 
