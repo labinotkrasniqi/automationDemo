@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 75.0.3770.142,,,2019-07-23 16:40:46,2019-07-23 16:41:16,29.323s,INCOMPLETE
+,,,,,,,
+Test Cases/001 - Login,Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:41:16,28.889s,PASSED
+"productNumber = ""1934795""",Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:40:47,0.002s,PASSED
+"FirstName = ""John""",Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:40:47,0.001s,PASSED
+"LastName = ""Doe""",Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:40:47,0.001s,PASSED
+"address = ""Alabama Street""",Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:40:47,0.001s,PASSED
+"city = ""Alabama""",Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:40:47,0.001s,PASSED
+"visaCardNumber = ""4111111111111111""",Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:40:47,0.001s,PASSED
+"expireDate = ""1224""",Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:40:47,0.000s,PASSED
+"securityCode = ""900""",Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:40:47,0.000s,PASSED
+b2b.utilities.Navigation.OpenBrowser(url),Chrome 75.0.3770.142,,,2019-07-23 16:40:47,2019-07-23 16:41:05,17.614s,PASSED
+"click(findTestObject(""Object Repository/button_AcceptCookies""))",Chrome 75.0.3770.142,,,2019-07-23 16:41:05,2019-07-23 16:41:05,0.203s,PASSED
+"Login(memberUsername, memberPassword)",Chrome 75.0.3770.142,,,2019-07-23 16:41:05,2019-07-23 16:41:05,0.002s,PASSED
+"click(findTestObject(""Object Repository/a_SignInRegister""))",Chrome 75.0.3770.142,,,2019-07-23 16:41:05,2019-07-23 16:41:06,1.220s,PASSED
+"setText(findTestObject(""Object Repository/input_EmailAddress""), username, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-07-23 16:41:06,2019-07-23 16:41:06,0.194s,PASSED
+"setText(findTestObject(""Object Repository/input_UserPassword""), password, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-07-23 16:41:06,2019-07-23 16:41:07,0.146s,PASSED
+"click(findTestObject(""Object Repository/button_LogIn""))",Chrome 75.0.3770.142,,,2019-07-23 16:41:07,2019-07-23 16:41:09,2.494s,PASSED
+"verifyTextPresent(""WELCOME JOHN"", false, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-07-23 16:41:09,2019-07-23 16:41:09,0.204s,PASSED
+"setText(findTestObject(""Object Repository/input_Search""), productNumber, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-07-23 16:41:09,2019-07-23 16:41:09,0.106s,PASSED
+"sendKeys(findTestObject(""Object Repository/input_Search""), Keys.chord(ENTER))",Chrome 75.0.3770.142,,,2019-07-23 16:41:09,2019-07-23 16:41:12,2.271s,PASSED
+"click(findTestObject(""Object Repository/button_AddToCart""))",Chrome 75.0.3770.142,,,2019-07-23 16:41:12,2019-07-23 16:41:12,0.148s,PASSED
+"click(findTestObject(""Object Repository/a_ConfirmAddToCart""))",Chrome 75.0.3770.142,,,2019-07-23 16:41:12,2019-07-23 16:41:14,1.764s,PASSED
+"click(findTestObject(""Object Repository/button_Check Out""))",Chrome 75.0.3770.142,,,2019-07-23 16:41:14,2019-07-23 16:41:16,2.136s,PASSED

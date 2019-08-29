@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuite1" time="62" tests="1" failures="0" errors="1">
+    <testsuite name="TestSuite1" tests="1" failures="0" errors="1" time="62" timestamp="2019-08-08 09:40:54" hostname="lkrasniqi - NP-0083.webtiser.net" id="Test Suites/TestSuite1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\lkrasniqi\\Katalon Studio\\PartnerB2B\\Reports\\TestSuite1\\20190808_094047"/>
+            <property name="logFiles" value="C:\\Users\\lkrasniqi\\Katalon Studio\\PartnerB2B\\Reports\\TestSuite1\\20190808_094047\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="lkrasniqi - NP-0083.webtiser.net"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+            <property name="browser" value="Chrome 75.0.3770.142"/>
+            <property name="hostAddress" value="10.0.75.1"/>
+            <property name="sessionId" value="2a0ee93bc632fc5f7de0c4bef2feed4b"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/001 - Login" classname="Test Cases/001 - Login" status="ERROR">
+            <error type="ERROR" message="Test Cases/001 - Login FAILED.&#xA;Reason:&#xA;groovy.lang.MissingMethodException: No signature of method: Script1562845449977.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Boolean, com.kms.katalon.core.model.FailureHandling) values: [Object Repository/Checkout/button_NextBilling, false, STOP_ON_FAILURE]&#xD;&#xA;&#x9;at 001 - Login.run(001 - Login:37)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1565250052469.run(TempTestSuite1565250052469.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-08 09:40:54 - [TEST_CASE][ERROR] - Test Cases/001 - Login: Test Cases/001 - Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1562845449977.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Boolean, com.kms.katalon.core.model.FailureHandling) values: [Object Repository/Checkout/button_NextBilling, false, STOP_ON_FAILURE]&#xD;
+	at 001 - Login.run(001 - Login:37)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565250052469.run(TempTestSuite1565250052469.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - productNumber = "3887121": null&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - FirstName = "John": null&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - LastName = "Doe": null&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - address = "Alabama Street": null&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - city = "Alabama": null&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - visaCardNumber = "4111111111111111": null&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - expireDate = "1224": null&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - securityCode = "900": null&#xD;
+&#xD;
+2019-08-08 09:40:55 - [TEST_STEP][PASSED] - b2b.utilities.Navigation.OpenBrowser(baseUrl): b2b.utilities.Navigation.OpenBrowser is PASSED&#xD;
+&#xD;
+2019-08-08 09:40:56 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-08 09:40:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-08-08 09:41:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://partnerb2b.webtiser.com/&#xD;
+'&#xD;
+&#xD;
+2019-08-08 09:41:04 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1440&#xD;
+&#xD;
+2019-08-08 09:41:04 - [MESSAGE][PASSED] - b2b.utilities.Navigation.OpenBrowser is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:04 - [TEST_STEP][PASSED] - Login(memberUsername, memberPassword): null&#xD;
+&#xD;
+2019-08-08 09:41:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_SignInRegister")): Object: 'Object Repository/a_SignInRegister' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/a_SignInRegister' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_EmailAddress"), username, CONTINUE_ON_FAILURE): Text 'mark.rivers@pronto-hw.com' is set on object 'Object Repository/input_EmailAddress'&#xD;
+&#xD;
+2019-08-08 09:41:06 - [MESSAGE][PASSED] - Text 'mark.rivers@pronto-hw.com' is set on object 'Object Repository/input_EmailAddress'&#xD;
+&#xD;
+2019-08-08 09:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_UserPassword"), password, CONTINUE_ON_FAILURE): Text '1234567' is set on object 'Object Repository/input_UserPassword'&#xD;
+&#xD;
+2019-08-08 09:41:06 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/input_UserPassword'&#xD;
+&#xD;
+2019-08-08 09:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_LogIn")): Object: 'Object Repository/button_LogIn' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/button_LogIn' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Search"), productNumber, CONTINUE_ON_FAILURE): Text '3887121' is set on object 'Object Repository/input_Search'&#xD;
+&#xD;
+2019-08-08 09:41:14 - [MESSAGE][PASSED] - Text '3887121' is set on object 'Object Repository/input_Search'&#xD;
+&#xD;
+2019-08-08 09:41:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/input_Search'&#xD;
+&#xD;
+2019-08-08 09:41:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Search'&#xD;
+&#xD;
+2019-08-08 09:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_AddToCart")): Object: 'Object Repository/button_AddToCart' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/button_AddToCart' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_ConfirmAddToCart")): Object: 'Object Repository/a_ConfirmAddToCart' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/a_ConfirmAddToCart' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Check Out")): Object: 'Object Repository/button_Check Out' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Check Out' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:32 - [TEST_STEP][PASSED] - comment("Fill the shipping address information"): Fill the shipping address information&#xD;
+&#xD;
+2019-08-08 09:41:32 - [MESSAGE][INFO] - Fill the shipping address information&#xD;
+&#xD;
+2019-08-08 09:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/button_NextPaymentType")): Object: 'Object Repository/Checkout/button_NextPaymentType' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/button_NextPaymentType' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Checkout/button_NextBilling", false, STOP_ON_FAILURE)): null</system-out>
+            <system-err>2019-08-08 09:40:54 - [TEST_CASE][ERROR] - Test Cases/001 - Login: Test Cases/001 - Login FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1562845449977.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Boolean, com.kms.katalon.core.model.FailureHandling) values: [Object Repository/Checkout/button_NextBilling, false, STOP_ON_FAILURE]&#xD;
+	at 001 - Login.run(001 - Login:37)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565250052469.run(TempTestSuite1565250052469.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/SmartEdit - CreatePage" classname="Test Cases/SmartEdit - CreatePage" status="PASSED">
+            <system-out>2019-08-08 09:41:33 - [TEST_CASE][PASSED] - Test Cases/SmartEdit - CreatePage: Test Cases/SmartEdit - CreatePage&#xD;
+&#xD;
+2019-08-08 09:41:33 - [TEST_STEP][PASSED] - username = "admin": null&#xD;
+&#xD;
+2019-08-08 09:41:33 - [TEST_STEP][PASSED] - password = "19ax74ue_": null&#xD;
+&#xD;
+2019-08-08 09:41:33 - [TEST_STEP][PASSED] - name = b2b.utilities.OtherUtilities.randomStringGenerator(5, RANDOM_ALPHANUM): b2b.utilities.OtherUtilities.randomStringGenerator is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:33 - [MESSAGE][PASSED] - b2b.utilities.OtherUtilities.randomStringGenerator is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:33 - [TEST_STEP][PASSED] - pageLabel = b2b.utilities.OtherUtilities.randomStringGenerator(5, RANDOM_ALPHANUM): b2b.utilities.OtherUtilities.randomStringGenerator is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:33 - [MESSAGE][PASSED] - b2b.utilities.OtherUtilities.randomStringGenerator is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:33 - [TEST_STEP][PASSED] - pageTitle = b2b.utilities.OtherUtilities.randomStringGenerator(5, RANDOM_ALPHANUM): b2b.utilities.OtherUtilities.randomStringGenerator is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:33 - [MESSAGE][PASSED] - b2b.utilities.OtherUtilities.randomStringGenerator is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:33 - [TEST_STEP][PASSED] - b2b.utilities.Navigation.OpenBrowser(secondUrl): b2b.utilities.Navigation.OpenBrowser is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-08-08 09:41:34 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-08 09:41:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://partnerb2b.webtiser.com/smartedit'&#xD;
+&#xD;
+2019-08-08 09:41:39 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1440&#xD;
+&#xD;
+2019-08-08 09:41:39 - [MESSAGE][PASSED] - b2b.utilities.Navigation.OpenBrowser is PASSED&#xD;
+&#xD;
+2019-08-08 09:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SmartEdit/Page_/input_smartEditUsername"), username, CONTINUE_ON_FAILURE): Text 'admin' is set on object 'Object Repository/Page_SmartEdit/Page_/input_smartEditUsername'&#xD;
+&#xD;
+2019-08-08 09:41:39 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_SmartEdit/Page_/input_smartEditUsername'&#xD;
+&#xD;
+2019-08-08 09:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SmartEdit/Page_/input_SmartEditPassword"), password, CONTINUE_ON_FAILURE): Text '19ax74ue_' is set on object 'Object Repository/Page_SmartEdit/Page_/input_SmartEditPassword'&#xD;
+&#xD;
+2019-08-08 09:41:39 - [MESSAGE][PASSED] - Text '19ax74ue_' is set on object 'Object Repository/Page_SmartEdit/Page_/input_SmartEditPassword'&#xD;
+&#xD;
+2019-08-08 09:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/Page_/button_Sign in")): Object: 'Object Repository/Page_SmartEdit/Page_/button_Sign in' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/Page_/button_Sign in' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/a_Pages"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Page_SmartEdit/a_Pages' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/a_Pages' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/button_AddNewPage")): Object: 'Object Repository/Page_SmartEdit/button_AddNewPage' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/button_AddNewPage' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/div_ContentPage"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Page_SmartEdit/div_ContentPage' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/div_ContentPage' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/button_Next"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Page_SmartEdit/button_Next' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/button_Next' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/div_LandingPage2Template"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Page_SmartEdit/div_LandingPage2Template' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/div_LandingPage2Template' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/button_Next"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Page_SmartEdit/button_Next' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/button_Next' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-08 09:41:56 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-08 09:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/button_Next"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Page_SmartEdit/button_Next' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/button_Next' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SmartEdit/input_Name"), name, CONTINUE_ON_FAILURE): Text 'S4IZU' is set on object 'Object Repository/Page_SmartEdit/input_Name'&#xD;
+&#xD;
+2019-08-08 09:41:57 - [MESSAGE][PASSED] - Text 'S4IZU' is set on object 'Object Repository/Page_SmartEdit/input_Name'&#xD;
+&#xD;
+2019-08-08 09:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SmartEdit/input_PageLabel"), pageLabel, CONTINUE_ON_FAILURE): Text '0FQLL' is set on object 'Object Repository/Page_SmartEdit/input_PageLabel'&#xD;
+&#xD;
+2019-08-08 09:41:57 - [MESSAGE][PASSED] - Text '0FQLL' is set on object 'Object Repository/Page_SmartEdit/input_PageLabel'&#xD;
+&#xD;
+2019-08-08 09:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_SmartEdit/input_EN_title"), pageTitle, CONTINUE_ON_FAILURE): Text '61SPT' is set on object 'Object Repository/Page_SmartEdit/input_EN_title'&#xD;
+&#xD;
+2019-08-08 09:41:57 - [MESSAGE][PASSED] - Text '61SPT' is set on object 'Object Repository/Page_SmartEdit/input_EN_title'&#xD;
+&#xD;
+2019-08-08 09:41:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_SmartEdit/button_Done"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Page_SmartEdit/button_Done' is clicked on&#xD;
+&#xD;
+2019-08-08 09:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartEdit/button_Done' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-08 09:40:54 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-out>
+        <system-err>2019-08-08 09:40:54 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-err>
+    </testsuite>
+</testsuites>

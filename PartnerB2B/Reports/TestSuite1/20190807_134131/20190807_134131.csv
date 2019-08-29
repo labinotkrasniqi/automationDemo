@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 75.0.3770.142,,,2019-08-07 13:41:37,2019-08-07 13:53:12,11m - 35.055s,INCOMPLETE
+,,,,,,,
+Test Cases/001 - Login,Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:53:12,11m - 34.839s,FAILED
+"productNumber = ""3887121""",Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:38,0.002s,PASSED
+"FirstName = ""John""",Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:38,0.001s,PASSED
+"LastName = ""Doe""",Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:38,0.001s,PASSED
+"address = ""Alabama Street""",Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:38,0.001s,PASSED
+"city = ""Alabama""",Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:38,0.001s,PASSED
+"visaCardNumber = ""4111111111111111""",Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:38,0.001s,PASSED
+"expireDate = ""1224""",Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:38,0.000s,PASSED
+"securityCode = ""900""",Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:38,0.001s,PASSED
+b2b.utilities.Navigation.OpenBrowser(baseUrl),Chrome 75.0.3770.142,,,2019-08-07 13:41:38,2019-08-07 13:41:47,9.472s,PASSED
+"Login(memberUsername, memberPassword)",Chrome 75.0.3770.142,,,2019-08-07 13:41:47,2019-08-07 13:41:47,0.002s,PASSED
+"click(findTestObject(""Object Repository/a_SignInRegister""))",Chrome 75.0.3770.142,,,2019-08-07 13:41:47,2019-08-07 13:41:52,4.010s,PASSED
+"setText(findTestObject(""Object Repository/input_EmailAddress""), username, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:41:52,2019-08-07 13:41:52,0.199s,PASSED
+"setText(findTestObject(""Object Repository/input_UserPassword""), password, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:41:52,2019-08-07 13:41:52,0.103s,PASSED
+"click(findTestObject(""Object Repository/button_LogIn""))",Chrome 75.0.3770.142,,,2019-08-07 13:41:52,2019-08-07 13:42:03,11.218s,PASSED
+"setText(findTestObject(""Object Repository/input_Search""), productNumber, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:42:03,2019-08-07 13:42:03,0.115s,PASSED
+"sendKeys(findTestObject(""Object Repository/input_Search""), Keys.chord(ENTER))",Chrome 75.0.3770.142,,,2019-08-07 13:42:03,2019-08-07 13:42:08,5.145s,PASSED
+"click(findTestObject(""Object Repository/button_AddToCart""))",Chrome 75.0.3770.142,,,2019-08-07 13:42:08,2019-08-07 13:42:08,0.104s,PASSED
+"click(findTestObject(""Object Repository/a_ConfirmAddToCart""))",Chrome 75.0.3770.142,,,2019-08-07 13:42:08,2019-08-07 13:42:13,4.294s,PASSED
+"click(findTestObject(""Object Repository/button_Check Out""))",Chrome 75.0.3770.142,,,2019-08-07 13:42:13,2019-08-07 13:42:15,2.523s,PASSED
+"comment(""Fill the shipping address information"")",Chrome 75.0.3770.142,,,2019-08-07 13:42:15,2019-08-07 13:42:15,0.018s,PASSED
+"click(findTestObject(""Object Repository/Checkout/button_NextPaymentType""))",Chrome 75.0.3770.142,,,2019-08-07 13:42:15,2019-08-07 13:42:18,3.232s,PASSED
+"click(findTestObject(""Object Repository/Checkout/button_NextBilling""))",Chrome 75.0.3770.142,,,2019-08-07 13:42:18,2019-08-07 13:42:19,0.477s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Checkout/select_Country""), ""AL"", false, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:42:19,2019-08-07 13:42:50,31.020s,FAILED
+delay(1),Chrome 75.0.3770.142,,,2019-08-07 13:42:50,2019-08-07 13:42:51,1.008s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Checkout/select_title""), ""mr"", false, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:42:51,2019-08-07 13:43:22,31.050s,FAILED
+"setText(findTestObject(""Object Repository/Checkout/input_FirstName""), FirstName, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:43:22,2019-08-07 13:43:53,31.039s,FAILED
+"setText(findTestObject(""Object Repository/Checkout/input_LastName""), LastName, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:43:53,2019-08-07 13:44:24,31.011s,FAILED
+"setText(findTestObject(""Object Repository/Checkout/input_AddressLine""), address, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:44:24,2019-08-07 13:44:55,30.985s,FAILED
+"setText(findTestObject(""Object Repository/Checkout/input_City""), city, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:44:55,2019-08-07 13:45:26,30.968s,FAILED
+"setText(findTestObject(""Object Repository/Checkout/input_PostCode""), LastName, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:45:26,2019-08-07 13:45:57,31.032s,FAILED
+"check(findTestObject(""Object Repository/Checkout/input_SaveShippingAddress""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:45:57,2019-08-07 13:46:28,30.982s,FAILED
+"click(findTestObject(""Checkout/button_NextShipmentAddress""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:46:28,2019-08-07 13:46:59,31.040s,FAILED
+"click(findTestObject(""Checkout/button_NextShippingMethod""))",Chrome 75.0.3770.142,,,2019-08-07 13:46:59,2019-08-07 13:47:00,0.524s,PASSED
+"selectOptionByIndex(findTestObject(""Checkout/select_PaymentMethod""), 1, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:47:00,2019-08-07 13:47:31,30.909s,FAILED
+"click(findTestObject(""Checkout/button_NextBilling""))",Chrome 75.0.3770.142,,,2019-08-07 13:47:31,2019-08-07 13:48:01,30.915s,FAILED
+"orderTotal = getText(findTestObject(""Checkout/div_OrderTotal""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:48:01,2019-08-07 13:48:32,30.924s,FAILED
+"orderRightSide = getText(findTestObject(""Checkout/div_OrderTotal-RightSideBar""))",Chrome 75.0.3770.142,,,2019-08-07 13:48:32,2019-08-07 13:49:03,30.926s,FAILED
+"verifyEqual(orderTotal, orderRightSide, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:49:03,2019-08-07 13:49:03,0.009s,PASSED
+"click(findTestObject(""Checkout/input_TermsConditions""))",Chrome 75.0.3770.142,,,2019-08-07 13:49:03,2019-08-07 13:49:34,30.934s,FAILED
+"click(findTestObject(""Checkout/button_PlaceOrder""))",Chrome 75.0.3770.142,,,2019-08-07 13:49:34,2019-08-07 13:50:05,30.893s,FAILED
+delay(2),Chrome 75.0.3770.142,,,2019-08-07 13:50:05,2019-08-07 13:50:07,2.002s,PASSED
+"switchToFrame(findTestObject(""Object Repository/Checkout/iframe_Final Review_paymentForm_4129""), 30, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:50:07,2019-08-07 13:50:38,30.900s,FAILED
+"setText(findTestObject(""Checkout/input_CardHolderName""), FirstName, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:50:38,2019-08-07 13:51:09,30.896s,FAILED
+"setText(findTestObject(""Checkout/input_CardNumber""), visaCardNumber, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:51:09,2019-08-07 13:51:40,30.904s,FAILED
+"setText(findTestObject(""Checkout/div_ExpireDate""), expireDate, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:51:40,2019-08-07 13:52:11,30.901s,FAILED
+"setText(findTestObject(""Checkout/input_SecurityCode""), securityCode, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-07 13:52:11,2019-08-07 13:52:42,30.898s,FAILED
+"click(findTestObject(""Checkout/button_Paynow""))",Chrome 75.0.3770.142,,,2019-08-07 13:52:42,2019-08-07 13:53:12,30.880s,FAILED

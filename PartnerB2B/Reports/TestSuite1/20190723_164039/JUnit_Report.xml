@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuite1" time="29" tests="1" failures="0" errors="0">
+    <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="29" timestamp="2019-07-23 16:40:46" hostname="lkrasniqi - NP-0083.webtiser.net" id="Test Suites/TestSuite1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\lkrasniqi\\Katalon Studio\\PartnerB2B\\Reports\\TestSuite1\\20190723_164039"/>
+            <property name="logFiles" value="C:\\Users\\lkrasniqi\\Katalon Studio\\PartnerB2B\\Reports\\TestSuite1\\20190723_164039\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="lkrasniqi - NP-0083.webtiser.net"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+            <property name="browser" value="Chrome 75.0.3770.142"/>
+            <property name="hostAddress" value="10.0.75.1"/>
+            <property name="sessionId" value="a60a4c4fec515dc06336626057ab0b1d"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/001 - Login" classname="Test Cases/001 - Login" status="PASSED">
+            <system-out>2019-07-23 16:40:47 - [TEST_CASE][PASSED] - Test Cases/001 - Login: Test Cases/001 - Login&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - productNumber = "1934795": null&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - FirstName = "John": null&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - LastName = "Doe": null&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - address = "Alabama Street": null&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - city = "Alabama": null&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - visaCardNumber = "4111111111111111": null&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - expireDate = "1224": null&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - securityCode = "900": null&#xD;
+&#xD;
+2019-07-23 16:40:47 - [TEST_STEP][PASSED] - b2b.utilities.Navigation.OpenBrowser(url): b2b.utilities.Navigation.OpenBrowser is PASSED&#xD;
+&#xD;
+2019-07-23 16:40:48 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-23 16:40:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-23 16:41:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://partner.webtiser.com/'&#xD;
+&#xD;
+2019-07-23 16:41:05 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1440&#xD;
+&#xD;
+2019-07-23 16:41:05 - [MESSAGE][PASSED] - b2b.utilities.Navigation.OpenBrowser is PASSED&#xD;
+&#xD;
+2019-07-23 16:41:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_AcceptCookies")): Object: 'Object Repository/button_AcceptCookies' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/button_AcceptCookies' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:05 - [TEST_STEP][PASSED] - Login(memberUsername, memberPassword): null&#xD;
+&#xD;
+2019-07-23 16:41:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_SignInRegister")): Object: 'Object Repository/a_SignInRegister' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/a_SignInRegister' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_EmailAddress"), username, CONTINUE_ON_FAILURE): Text 'john.doe@webtiser.ch' is set on object 'Object Repository/input_EmailAddress'&#xD;
+&#xD;
+2019-07-23 16:41:06 - [MESSAGE][PASSED] - Text 'john.doe@webtiser.ch' is set on object 'Object Repository/input_EmailAddress'&#xD;
+&#xD;
+2019-07-23 16:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_UserPassword"), password, CONTINUE_ON_FAILURE): Text '1234567' is set on object 'Object Repository/input_UserPassword'&#xD;
+&#xD;
+2019-07-23 16:41:07 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/input_UserPassword'&#xD;
+&#xD;
+2019-07-23 16:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_LogIn")): Object: 'Object Repository/button_LogIn' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/button_LogIn' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:09 - [TEST_STEP][PASSED] - verifyTextPresent("WELCOME JOHN", false, CONTINUE_ON_FAILURE): Text 'WELCOME JOHN' is present on page &#xD;
+&#xD;
+2019-07-23 16:41:09 - [MESSAGE][PASSED] - Text 'WELCOME JOHN' is present on page &#xD;
+&#xD;
+2019-07-23 16:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Search"), productNumber, CONTINUE_ON_FAILURE): Text '1934795' is set on object 'Object Repository/input_Search'&#xD;
+&#xD;
+2019-07-23 16:41:09 - [MESSAGE][PASSED] - Text '1934795' is set on object 'Object Repository/input_Search'&#xD;
+&#xD;
+2019-07-23 16:41:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/input_Search'&#xD;
+&#xD;
+2019-07-23 16:41:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Search'&#xD;
+&#xD;
+2019-07-23 16:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_AddToCart")): Object: 'Object Repository/button_AddToCart' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/button_AddToCart' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_ConfirmAddToCart")): Object: 'Object Repository/a_ConfirmAddToCart' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/a_ConfirmAddToCart' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Check Out")): Object: 'Object Repository/button_Check Out' is clicked on&#xD;
+&#xD;
+2019-07-23 16:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Check Out' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-23 16:40:46 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-out>
+        <system-err>2019-07-23 16:40:46 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-err>
+    </testsuite>
+</testsuites>

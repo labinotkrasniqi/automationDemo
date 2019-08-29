@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 75.0.3770.142,,,2019-08-08 09:40:54,2019-08-08 09:41:57,1m - 2.941s,INCOMPLETE
+,,,,,,,
+Test Cases/001 - Login,Chrome 75.0.3770.142,,,2019-08-08 09:40:54,2019-08-08 09:41:33,38.613s,ERROR
+"productNumber = ""3887121""",Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:40:55,0.001s,PASSED
+"FirstName = ""John""",Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:40:55,0.001s,PASSED
+"LastName = ""Doe""",Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:40:55,0.001s,PASSED
+"address = ""Alabama Street""",Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:40:55,0.001s,PASSED
+"city = ""Alabama""",Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:40:55,0.001s,PASSED
+"visaCardNumber = ""4111111111111111""",Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:40:55,0.000s,PASSED
+"expireDate = ""1224""",Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:40:55,0.001s,PASSED
+"securityCode = ""900""",Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:40:55,0.001s,PASSED
+b2b.utilities.Navigation.OpenBrowser(baseUrl),Chrome 75.0.3770.142,,,2019-08-08 09:40:55,2019-08-08 09:41:04,9.145s,PASSED
+"Login(memberUsername, memberPassword)",Chrome 75.0.3770.142,,,2019-08-08 09:41:04,2019-08-08 09:41:04,0.002s,PASSED
+"click(findTestObject(""Object Repository/a_SignInRegister""))",Chrome 75.0.3770.142,,,2019-08-08 09:41:04,2019-08-08 09:41:06,1.866s,PASSED
+"setText(findTestObject(""Object Repository/input_EmailAddress""), username, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:06,2019-08-08 09:41:06,0.172s,PASSED
+"setText(findTestObject(""Object Repository/input_UserPassword""), password, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:06,2019-08-08 09:41:06,0.093s,PASSED
+"click(findTestObject(""Object Repository/button_LogIn""))",Chrome 75.0.3770.142,,,2019-08-08 09:41:06,2019-08-08 09:41:13,7.213s,PASSED
+"setText(findTestObject(""Object Repository/input_Search""), productNumber, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:13,2019-08-08 09:41:14,0.132s,PASSED
+"sendKeys(findTestObject(""Object Repository/input_Search""), Keys.chord(ENTER))",Chrome 75.0.3770.142,,,2019-08-08 09:41:14,2019-08-08 09:41:23,9.394s,PASSED
+"click(findTestObject(""Object Repository/button_AddToCart""))",Chrome 75.0.3770.142,,,2019-08-08 09:41:23,2019-08-08 09:41:23,0.085s,PASSED
+"click(findTestObject(""Object Repository/a_ConfirmAddToCart""))",Chrome 75.0.3770.142,,,2019-08-08 09:41:23,2019-08-08 09:41:30,7.005s,PASSED
+"click(findTestObject(""Object Repository/button_Check Out""))",Chrome 75.0.3770.142,,,2019-08-08 09:41:30,2019-08-08 09:41:32,1.536s,PASSED
+"comment(""Fill the shipping address information"")",Chrome 75.0.3770.142,,,2019-08-08 09:41:32,2019-08-08 09:41:32,0.016s,PASSED
+"click(findTestObject(""Object Repository/Checkout/button_NextPaymentType""))",Chrome 75.0.3770.142,,,2019-08-08 09:41:32,2019-08-08 09:41:33,1.462s,PASSED
+"click(findTestObject(""Object Repository/Checkout/button_NextBilling"", false, STOP_ON_FAILURE))",Chrome 75.0.3770.142,,,2019-08-08 09:41:33,2019-08-08 09:41:33,0.003s,PASSED
+,,,,,,,
+Test Cases/SmartEdit - CreatePage,Chrome 75.0.3770.142,,,2019-08-08 09:41:33,2019-08-08 09:41:57,23.948s,PASSED
+"username = ""admin""",Chrome 75.0.3770.142,,,2019-08-08 09:41:33,2019-08-08 09:41:33,0.001s,PASSED
+"password = ""19ax74ue_""",Chrome 75.0.3770.142,,,2019-08-08 09:41:33,2019-08-08 09:41:33,0.001s,PASSED
+"name = b2b.utilities.OtherUtilities.randomStringGenerator(5, RANDOM_ALPHANUM)",Chrome 75.0.3770.142,,,2019-08-08 09:41:33,2019-08-08 09:41:33,0.030s,PASSED
+"pageLabel = b2b.utilities.OtherUtilities.randomStringGenerator(5, RANDOM_ALPHANUM)",Chrome 75.0.3770.142,,,2019-08-08 09:41:33,2019-08-08 09:41:33,0.001s,PASSED
+"pageTitle = b2b.utilities.OtherUtilities.randomStringGenerator(5, RANDOM_ALPHANUM)",Chrome 75.0.3770.142,,,2019-08-08 09:41:33,2019-08-08 09:41:33,0.000s,PASSED
+b2b.utilities.Navigation.OpenBrowser(secondUrl),Chrome 75.0.3770.142,,,2019-08-08 09:41:33,2019-08-08 09:41:39,5.244s,PASSED
+"setText(findTestObject(""Object Repository/Page_SmartEdit/Page_/input_smartEditUsername""), username, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:39,2019-08-08 09:41:39,0.626s,PASSED
+"setText(findTestObject(""Object Repository/Page_SmartEdit/Page_/input_SmartEditPassword""), password, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:39,2019-08-08 09:41:39,0.112s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/Page_/button_Sign in""))",Chrome 75.0.3770.142,,,2019-08-08 09:41:39,2019-08-08 09:41:40,0.096s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/a_Pages""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:40,2019-08-08 09:41:47,7.331s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/button_AddNewPage""))",Chrome 75.0.3770.142,,,2019-08-08 09:41:47,2019-08-08 09:41:53,6.099s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/div_ContentPage""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:53,2019-08-08 09:41:54,1.103s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/button_Next""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:54,2019-08-08 09:41:54,0.074s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/div_LandingPage2Template""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:54,2019-08-08 09:41:54,0.092s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/button_Next""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:54,2019-08-08 09:41:54,0.076s,PASSED
+delay(2),Chrome 75.0.3770.142,,,2019-08-08 09:41:54,2019-08-08 09:41:56,2.008s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/button_Next""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:56,2019-08-08 09:41:56,0.162s,PASSED
+"setText(findTestObject(""Object Repository/Page_SmartEdit/input_Name""), name, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:56,2019-08-08 09:41:57,0.153s,PASSED
+"setText(findTestObject(""Object Repository/Page_SmartEdit/input_PageLabel""), pageLabel, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:57,2019-08-08 09:41:57,0.183s,PASSED
+"setText(findTestObject(""Object Repository/Page_SmartEdit/input_EN_title""), pageTitle, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:57,2019-08-08 09:41:57,0.150s,PASSED
+"click(findTestObject(""Object Repository/Page_SmartEdit/button_Done""), CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-08-08 09:41:57,2019-08-08 09:41:57,0.124s,PASSED
